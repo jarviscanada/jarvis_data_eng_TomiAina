@@ -59,7 +59,6 @@ After this, a monitoring agent program (contains host_usage and host_info script
 Now that the database contains all the necessary data, SQL queries can then be used to get the LCA team's in-depth information (answer the business questions).
 
 ## Architecture
-![This is an image](C:\Users\User\Downloads\Architecture.drawio.png)
 
 ## Scripts
 This section gives a brief description of the scripts and code for usage:
