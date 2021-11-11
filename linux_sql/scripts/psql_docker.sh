@@ -1,10 +1,11 @@
 #!/bin/sh
-#capture CLI arguments (please do not copy comments)
+#capture CLI arguments
 cmd=$1
 db_username=$2  ###So do i save the username to a variable, it is different from database
 db_password=$3
+
+
 #Start docker
-#Make sure you understand `||` cmd
 sudo systemctl status docker || systemctl start docker
 
 #check container status (try the following cmds on terminal)
