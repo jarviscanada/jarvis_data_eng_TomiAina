@@ -61,7 +61,7 @@ Now that the database contains all the necessary data, SQL queries can then be u
 ## Architecture
 ![This is an image](C:\Users\User\Downloads\Architecture.drawio.png)
 
-##Scripts
+## Scripts
 This section gives a brief description of the scripts and code for usage:
 1. **psql_docker.sh**: This script can automatically perform three main functions:
 
@@ -135,7 +135,7 @@ The SQL Queries were tested by observing the result obtained if it corresponds w
 
 # Deployment
 The codes used in this project were pushed to Github for review and collaboration.
-The monitoring agent was scheduled using <crontab> while the Database was provisioned using Docker. 
+The monitoring agent was scheduled using `crontab` while the Database was provisioned using Docker. 
 
 # Improvements
 The following are parts of the projects to be improved.
