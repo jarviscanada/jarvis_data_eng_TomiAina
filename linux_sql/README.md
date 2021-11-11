@@ -1,4 +1,6 @@
-#Introduction
+# Design and Implementation of an MVP for a Linux Cluster Team 
+
+# Introduction
 The project aims to design and implement a Minimum Viable Product (MVP) to help the Jarvis Linux Cluster Administration (LCA) team meet their requirements. The LCA team manages the Linux cluster of 10 servers running on CentOS 7.  
 The team needs to store hardware specifications of each server/node and monitor resource usage (e.g. CPU usage) in real-time. The data should be stored in an RDBMS database (PostgreSQL) which can be used for reporting and, in the future, resource planning.
 
@@ -7,7 +9,7 @@ The goal is achieved by incorporating the following technologies:
 2. **docker**:  To provision or set up the PSQL.
 3. **Bash**:  To obtain hardware information and resource usage from the server using command lines and scripts.  In addition, bash scripts are also used to automate the initialization of the PSQL database and collection of data (using monitoring agent programs).
 
-#Quick Start
+# Quick Start
 This section gives a quick step-by-step overview of how the project works. The following prerequisites are necessary to complete the project:
 
 - [ ] Create a VM instance on Google Cloud Platform or any other platform of your choice
@@ -128,11 +130,12 @@ In this section, the schema of the host_info and the host_info is described.
 | disk_available    | `INT`     | It is the root directory available.    |
 
 # Test
-The bash scripts were tested by running the commands described in the Scripts section to perform the required task and display error messages.
-The SQL Queries were tested by observing the result obtained if it corresponds with the required output.
+The bash scripts were tested manually  running the commands described in the Scripts section to perform the required task and display error messages.
+The SQL Queries were tested by observing the result obtained if it corresponds with the required or target output.
 
-#Deployment
-The scripts and SQL queries used in this project were pushed to Github for review and collaboration.
+# Deployment
+The codes used in this project were pushed to Github for review and collaboration.
+The monitoring agent was scheduled using <crontab> while the Database was provisioned using Docker. 
 
 # Improvements
 The following are parts of the projects to be improved.
