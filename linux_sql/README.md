@@ -59,7 +59,7 @@ After this, a monitoring agent program (contains host_usage and host_info script
 Now that the database contains all the necessary data, SQL queries can then be used to get the LCA team's in-depth information (answer the business questions).
 
 ## Architecture
-
+![Architecture drawio](https://user-images.githubusercontent.com/49398695/141383578-72c3a2c2-d7b2-45b6-b055-3b2eab3ad704.png)
 ## Scripts
 This section gives a brief description of the scripts and code for usage:
 1. **psql_docker.sh**: This script can automatically perform three main functions:
