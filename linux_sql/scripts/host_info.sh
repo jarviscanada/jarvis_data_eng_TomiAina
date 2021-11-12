@@ -1,10 +1,11 @@
 #!/bin/bash
-#Setup and validate arguments (again, don't copy comments)
+#Setup and validate arguments
 psql_host=$1
 psql_port=$2
 db_name=$3
 psql_user=$4
 psql_password=$5
+
 #Check # of args
 if [ $# -ne 5 ]; then
   echo 'Please check that all arguments are correct'
@@ -16,7 +17,6 @@ hostname=$(hostname -f)
 lscpu_out=$(lscpu)
 
 #Retrieve hardware specification variables
-#xargs is a trick to trim leading and trailing white spaces
 hostname=$(hostname -f)
 cpu_number=$(echo "$lscpu_out"  | egrep "^CPU\(s\):" | awk '{print $2}' | xargs)
 cpu_architecture=$(echo "$lscpu_out"  | egrep "Architecture:" | awk '{print $2}' | xargs)
@@ -30,11 +30,12 @@ total_mem=$(cat /proc/meminfo | head -1 |awk '{print $2}')
 host_id="(SELECT id FROM host_info WHERE hostname='$hostname')";
 
 #PSQL command: Inserts server usage data into host_usage table
-#Note: be careful with double and single quotes
+
 set_insert_data=$(cat <<-END
 INSERT into host_info (hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, L2_cache, "timestamp", total_mem)  values  ( '${hostname}', ${cpu_number}, '${cpu_architecture}', '${cpu_model}', ${cpu_mhz}, ${l2_cache}, '${timestamp}', ${total_mem} );
 END
 )
+
 #set up env var for pql cmd
 export PGPASSWORD=$psql_password
 #Insert date into a database

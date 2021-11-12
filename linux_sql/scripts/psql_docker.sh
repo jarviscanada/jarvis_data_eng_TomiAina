@@ -1,18 +1,16 @@
 #!/bin/sh
 #capture CLI arguments
 cmd=$1
-db_username=$2  ###So do i save the username to a variable, it is different from database
+db_username=$2
 db_password=$3
-
 
 #Start docker
 sudo systemctl status docker || systemctl start docker
 
-#check container status (try the following cmds on terminal)
 #docker container inspect jrvs-psql
 container_status=$(docker container ls -a -f name="$2"| wc -l )
 
-#User switch case to handle create|stop|start opetions
+#User switch case to handle create|stop|start options
 case $cmd in
   create)
 

@@ -5,6 +5,7 @@ psql_port=$2
 db_name=$3
 psql_user=$4
 psql_password=$5
+
 #Check # of args
 if [ $# -ne 5 ]; then
   echo 'Please check that all arguments are correct'
@@ -16,7 +17,6 @@ vmstat_mb=$(vmstat --unit M)
 hostname=$(hostname -f)
 
 #Retrieve hardware specification variables
-#xargs is a trick to trim leading and trailing white spaces
 hostname=$(hostname -f)
 timestamp=$(date +%Y-%m-%d\ %H\:%M\:%S\.%3N)
 memory_free=$(echo "$vmstat_mb" | awk '{print $4}'| tail -n1 | xargs)
@@ -30,7 +30,7 @@ disk_available=${disk_available1//[^[:digit:].-]/}
 host_id="(SELECT id FROM host_info WHERE hostname='$hostname')";
 
 #PSQL command: Inserts server usage data into host_usage table
-#Note: be careful with double and single quotes
+
 set_insert_data=$(cat <<-END
 INSERT into host_usage (timestamp, host_id,memory_free,cpu_idle,cpu_kernel,disk_io,disk_available ) VALUES ('$timestamp',(SELECT id FROM host_info WHERE hostname='$hostname'), $memory_free,  $cpu_idle,  $cpu_kernel, $disk_io, $disk_available) ;
 END

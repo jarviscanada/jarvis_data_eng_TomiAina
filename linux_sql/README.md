@@ -139,3 +139,5 @@ The monitoring agent was scheduled using `crontab` while the Database was provis
 # Improvements
 The following improvements should be made 
 - Write a script to handle hardware update
+
+
