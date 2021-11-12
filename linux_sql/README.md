@@ -107,19 +107,19 @@ In this section, the schema of the host_info and the host_info is described.
 | :---: |  :---:|:---:|
 | id   | `SERIAL`     | It identifies the host in the cluster    |
 | host_name     | `VARCHAR`       | It is the name of the host       |
-| cpu_number   | `INT`     | It shows the number of CPU's     |
+| cpu_number   | `INT`     | It shows the number of CPU's core   |
 | cpu_architecture    |  `VARCHAR`      | It is the basic instruction set. It describes the capabilities of the CPPU       |
-| cpu_model   | `INT`     | It shows the model of the CPU    |
+| cpu_model   | `INT`     | It is the model  of the CPU    |
 | cpu_mhz | `INT`     | It shows the speed of the CPU     |
-| L2_cache     | `VARCHAR`       | It is a Level 2 CPU cache memory      |
+| L2_cache     | `VARCHAR`       | It is size of Level 2 CPU cache memory      |
 | total_mem   | `INT`     | It is the total installed memory in KB   |
-| "timestamp"     | `TIMESTAMP`      | It is the current time in UTC zone |
+| "timestamp"     | `TIMESTAMP`      | It is the UTC zone of when node hardware specifications were collected. |
 
 **Table: host_usage**
 
 | Column (Parameter) | Type| Description |
 | :---: |  :---:|:---:|
-| "timestamp"     | `TIMESTAMP`      | It is the current time in the UTC zone that the data was collected|
+| "timestamp"     | `TIMESTAMP`      | It is time in the UTC zone when the node resource usage information was collected|
 | id   | `SERIAL`     | It identifies the host in the cluster   |
 | host_name     | `VARCHAR`       | It is the name of the host       |
 | memory_free   | `INT`     |It shows the memory that is currently not used in MB    |
@@ -138,6 +138,8 @@ The monitoring agent was scheduled using `crontab` while the Database was provis
 
 # Improvements
 The following improvements should be made 
-- Write a script to handle hardware update
+- Handle hardware update
+- Automate the testing of the scripts
+- Write a script that can alert the team when the crontab is not working.
 
 
