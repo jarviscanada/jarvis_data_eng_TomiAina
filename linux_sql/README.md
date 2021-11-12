@@ -137,7 +137,5 @@ The codes used in this project were pushed to Github for review and collaboratio
 The monitoring agent was scheduled using `crontab` while the Database was provisioned using Docker. 
 
 # Improvements
-The following are parts of the projects to be improved.
-- Write a script to ensure that the
-- blah
-- blah
+The following improvements should be made 
+- Write a script to handle hardware update
