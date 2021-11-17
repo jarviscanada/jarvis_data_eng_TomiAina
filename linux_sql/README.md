@@ -1,4 +1,4 @@
-# Design and Implementation of an MVP for a Linux Cluster Team 
+# Linux Cluster Monitoring Agent 
 
 # Introduction
 The project aims to design and implement a Minimum Viable Product (MVP) to help the Jarvis Linux Cluster Administration (LCA) team meet their requirements. The LCA team manages the Linux cluster of 10 servers running on CentOS 7.  
