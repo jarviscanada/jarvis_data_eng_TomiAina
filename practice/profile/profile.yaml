@@ -28,9 +28,8 @@ skills:
     - Google Cloud Platform
     - MATLAB
     - Computer Networking 
-    - Technical Writing 
+    - Technical Writing
     - JAVA 
-
 # List of Jarvis projects
 jarvis_projects:
   - name: "Cluster Monitor"
