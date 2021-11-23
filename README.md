@@ -1,64 +1,48 @@
-# Tomi Aina::: . Jarvis Consulting
+# Tomi Aina . Jarvis Consulting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+I currently work as a software developer with Jarvis consulting, where I work on different projects on Linux cluster management, Java applications, spring boot REST API, and others. I am also completing a Ph.D. in Electrical Engineering. My research is focused on using computer vision techniques to diagnose cervical cancer lesions found in females. I am proficient in data analysis and providing insights to businesses using data. I have experience teaching undergraduate and postgraduate student.
 
 ## Skills
 
 **Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** Donec, fermentum, Donec, fermentum, Donec
+**Competent:** Pandas, Scikit-learn, Machine Learning, Deep Learning, Data Analysis
 
-**Familiar:** Donec, fermentum, fermentum, fermentum, fermentum
+**Familiar:** Google Cloud Platform, MATLAB, Computer Networking, Technical Writing, JAVA
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_TomiAina](https://github.com/jarviscanada/jarvis_data_eng_TomiAina)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]:
-      
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: Not Started
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_TomiAina/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_TomiAina/tree/develop/linux_sql)]: Implemented a Minimum Viable Product (MVP) that stores each server/node's hardware specifications and monitors resource usage (e.g. CPU usage) in real-time. The data is stored in an RDBMS database (PostgreSQL) which can be used for reporting and, in the future, resource planning.
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Development of a deep-learning based cervical screening system**: Developed a Computer Vision-based- system that can detect cervical cancer lesions using a mobile phone. A mobile application is developed that can automatically screen cervix images in real-time. It was designed to aid screening, particularly in low-resource regions and could potentially reduce the prevalence of cervical cancer in these regions.
 
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Optimization of Household Energy Management System**: Developed a Household Energy Management System that aims to minimize customers' electricity bills by predicting the operation time of appliances in the home with the real-time electricity price and renewable energy resources integrated with the home.
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Software Developer, Jarvis (2020-present)**: Worked on various projects such as Linux cluster monitoring, Twitter CRUD App, SpringBoot amongst others
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Program Instructor, Nile University of Nigeria (2019-2020)**: Developed curriculum and taught courses in machine learning, introduction to Electrical Engineering and computer programming. Led the team involved in transitioning the team from physical and online school during the pandemic in 2019. Involved in a couple of administrative and accreditation exercises in the Faculty.
+
+**Data Scienetist, KETT Automobile (2016-2017)**: Provided strategic insight to the business based on past data on best practices in reducing utility bills and investment diversification of the company.
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
+**Nile University of Nigeria (2018-2021)**, Doctor of Philosphy, Electrical Engineering
+- Obtained a 5.0/5.0 GPA in the first year of PhD
 
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**The University of Birmingham (2014-2018)**, Master of Science, Electrical and Computer Engineering
+
+**Covenant University (2009-2014)**, Bachelors of Engineering , Electrical and Electronincs Engineering
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- CISCO Certified Network Associate
+- Home Reno and Interior
+- Teaching Kids
