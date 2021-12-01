@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfdbbc42-3e13-4c1d-86cb-565dff1d292f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +121,7 @@
       <workItem from="1635898270563" duration="92398000" />
       <workItem from="1636573675188" duration="35885000" />
       <workItem from="1636671833959" duration="49000" />
+      <workItem from="1638301154810" duration="20000" />
     </task>
     <servers />
   </component>
