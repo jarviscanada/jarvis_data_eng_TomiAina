@@ -120,10 +120,12 @@ others:
     #list of items
     bullets:
       - "Simplilearn: Data Science with Python"
+      - "CCNA"
  # - title: "Awards"
   #  bullets:
   #
   - title: "Activities/Hobbies"
     bullets:
       - "Teaching Kids"
-      - "Home Renovations and Interior Decoration"      
+      - "Home Renovations and Interior Decoration"
+            
