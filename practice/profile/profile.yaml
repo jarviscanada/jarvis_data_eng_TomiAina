@@ -1,0 +1,129 @@
+#Prefered Name (Characters Only)
+name: "Tomi Aina"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_TomiAina
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: I currently work as a software developer with Jarvis consulting, where I work on different projects on Linux cluster management, Java applications, spring boot REST API, and others. I am also completing a Ph.D. in Electrical Engineering. My research is focused on using computer vision techniques to diagnose cervical cancer lesions found in females. I am proficient in data analysis and providing insights to businesses using data. I have experience teaching undergraduate and postgraduate student.
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Java
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+  # At least 5 skills
+  competent:
+    - Pandas
+    - Scikit-learn
+    - Machine Learning 
+    - Deep Learning 
+    - Data Analysis 
+  # At least 5 skills
+  familiar:
+    - Google Cloud Platform
+    - MATLAB
+    - Computer Networking 
+    - Technical Writing
+    - JAVA 
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_TomiAina/tree/develop/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description:   Implemented a Minimum Viable Product (MVP) that stores each server/node's hardware specifications and monitors resource usage (e.g. CPU usage) in real-time. The data is stored in an RDBMS database (PostgreSQL) which can be used for reporting and, in the future, resource planning. 
+#  - name: "Core Java Apps"
+ #   git_url: "/core_java"
+ #   description:
+  #    - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+   #   - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+    #  - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+#  - name: "Springboot App"
+ #   git_url: "/springboot"
+  #  description: ""
+ # - name: "Python Data Analytics"
+  #  git_url: "/python_data_anlytics"
+   # description: ""
+ # - name: "Hadoop"
+  #  git_url: "/hadoop"
+  #  description: ""
+ # - name: "Spark"
+ #   git_url: "/spark"
+  #  description: ""
+ # - name: "Cloud/DevOps"
+  #  git_url: "/cloud_devops"
+  #  description: ""
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Development of a deep-learning based cervical screening system"
+    #URL is optional
+   # git_url:
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Developed a Computer Vision-based- system that can detect cervical cancer lesions using a mobile phone. A mobile application is developed that can automatically screen cervix images in real-time. It was designed to aid screening, particularly in low-resource regions and could potentially reduce the prevalence of cervical cancer in these regions.
+  - name: "Optimization of Household Energy Management System"
+   # git_url:
+    description: Developed a Household Energy Management System that aims to minimize customers' electricity bills by predicting the operation time of appliances in the home with the real-time electricity price and renewable energy resources integrated with the home.
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2020-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Worked on various projects such as Linux cluster monitoring, Twitter CRUD App, SpringBoot amongst others"
+  - title: "Program Instructor"
+    company: "Nile University of Nigeria"
+    duration: "2019-2020"
+    description: "Developed curriculum and taught courses in machine learning, introduction to Electrical Engineering and computer programming. Led the team involved in transitioning the team from physical and online school during the pandemic in 2019. Involved in a couple of administrative and accreditation exercises in the Faculty."
+  - title: "Data Scienetist"
+    company: "KETT Automobile"
+    duration: "2016-2017"
+    description: "Provided strategic insight to the business based on past data on best practices in reducing utility bills and investment diversification of the company."
+
+#List of edcuation
+education: 
+  - school_name: "Nile University of Nigeria"
+    duration: "2018-2021"
+    degree: "Doctor of Philosphy"
+    department: "Electrical Engineering"
+    # optional
+    awards_achievements: 
+      - "Obtained a 5.0/5.0 GPA in the first year of PhD"
+  - school_name: "The University of Birmingham"
+    duration: "2014-2018"
+    degree: "Master of Science"
+    department: "Electrical and Computer Engineering"
+    awards_achievements: 
+   
+  - school_name: "Covenant University"
+    duration: "2009-2014"
+    degree: "Bachelors of Engineering "
+    department: "Electrical and Electronincs Engineering"
+    awards_achievements: 
+
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "CISCO Certified Network Associate"
+ # - title: "Awards"
+ #   bullets:
+  #    
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Home Reno and Interior"
+      - "Teaching Kids"
+  
