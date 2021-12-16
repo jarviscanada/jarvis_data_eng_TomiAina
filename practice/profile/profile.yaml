@@ -37,12 +37,12 @@ jarvis_projects:
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description:   Implemented a Minimum Viable Product (MVP) that stores each server/node's hardware specifications and monitors resource usage (e.g. CPU usage) in real-time. The data is stored in an RDBMS database (PostgreSQL) which can be used for reporting and, in the future, resource planning. 
-#  - name: "Core Java Apps"
+ # - name: "Core Java Apps"
  #   git_url: "/core_java"
- #   description:
+#    description:
   #    - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
    #   - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-    #  - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      # - "Grep App: Developed a JAVA-based app that can perform the functionalities of the grep command" 
 #  - name: "Springboot App"
  #   git_url: "/springboot"
   #  description: ""
@@ -70,11 +70,12 @@ highlighted_projects:
     description: Developed a Computer Vision-based- system that can detect cervical cancer lesions using a mobile phone. A mobile application is developed that can automatically screen cervix images in real-time. It was designed to aid screening, particularly in low-resource regions and could potentially reduce the prevalence of cervical cancer in these regions.
   - name: "Optimization of Household Energy Management System"
    # git_url:
-    description: Developed a Household Energy Management System that aims to minimize customers' electricity bills by predicting the operation time of appliances in the home with the real-time electricity price and renewable energy resources integrated with the home.
+    description: Developed a Household Energy Management System that aims to minimize customers' electricity bills by predicting the operation time of appliances in the home.  
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
@@ -126,4 +127,4 @@ others:
     bullets:
       - "Home Reno and Interior"
       - "Teaching Kids"
-  
+ 
