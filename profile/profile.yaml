@@ -41,10 +41,7 @@ jarvis_projects:
     description: Implemented a Minimum Viable Product (MVP) that stores each server/node's hardware specifications and monitors resource usage (e.g. CPU usage) in real-time. The data is stored in an RDBMS database (PostgreSQL) which can be used for reporting and, in the future, resource planning. 
   - name: "Core Java Apps"
     git_url: "/core_java"
-    description:
-      - "Twitter App: Not yet started"
-      - "JDBC App: Not yet started."
-      - "Grep App: Almost completed"
+    description: Developed a Java-based App that has the functionality of the grep linux comaand. 
   - name: "Springboot App"
     git_url: "/springboot"
     description: ""

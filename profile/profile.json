@@ -44,11 +44,7 @@
       "name": "Linux Cluster Resource Monitoring App"
     },
     {
-      "description": [
-        "Twitter App: Not yet started",
-        "JDBC App: Not yet started.",
-        "Grep App: Almost completed"
-      ],
+      "description": "Developed a Java-based App that has the functionality of the grep linux comaand.",
       "git_url": "/core_java",
       "name": "Core Java Apps"
     },
