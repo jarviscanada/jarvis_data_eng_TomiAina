@@ -1,0 +1,142 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Obtained a 5.0/5.0 GPA in the first year of PhD"
+      ],
+      "degree": "Doctor of Philosophy",
+      "department": "Electrical Engineering",
+      "duration": "2018-2021",
+      "school_name": "Nile University of Nigeria"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Master of Science",
+      "department": "Electrical and Computer Engineering",
+      "duration": "2014-2018",
+      "school_name": "The University of Birmingham"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Bachelors of Engineering",
+      "department": "Electrical and Electronics  Engineering",
+      "duration": "2009-2014",
+      "school_name": "Covenant University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_TomiAina",
+  "highlighted_projects": [
+    {
+      "description": "Developed a Computer Vision-based- system that can detect cervical cancer lesions using a mobile phone. A mobile application is developed that can automatically screen cervix images in real-time. It was designed to aid screening, particularly in low-resource regions and could potentially reduce the prevalence of cervical cancer in these regions.",
+      "git_url": null,
+      "name": "Development of a deep-learning based cervical screening system"
+    },
+    {
+      "description": "Developed a Household Energy Management System that aims to minimize customers' electricity bills by predicting the operation time of appliances in the home with the real-time electricity price and renewable energy resources integrated with the home.",
+      "git_url": null,
+      "name": "Optimization of Household Energy Management System"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Implemented a Minimum Viable Product (MVP) that stores each server/node's hardware specifications and monitors resource usage (e.g. CPU usage) in real-time. The data is stored in an RDBMS database (PostgreSQL) which can be used for reporting and, in the future, resource planning.",
+      "git_url": "/linux_sql",
+      "name": "Linux Cluster Resource Monitoring App"
+    },
+    {
+      "description": [
+        "Twitter App: Not yet started",
+        "JDBC App: Not yet started.",
+        "Grep App: Almost completed"
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "",
+      "git_url": "/springboot",
+      "name": "Springboot App"
+    },
+    {
+      "description": "",
+      "git_url": "/python_data_anlytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "Tomi Aina",
+  "others": [
+    {
+      "bullets": [
+        "Simplilearn: Data Science with Python",
+        "CCNA"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Teaching Kids",
+        "Home Renovations and Interior Decoration"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Developed various projects such as cluster monitoring, Grep app e.t.c  using tecchnologies such as Git, Linux,SQL,dockerr among others. Familiar with scrum/Agile methodologies. ",
+      "duration": "2020-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "Nile University of Nigeria",
+      "description": "Developed curriculum and taught courses in machine learning, introduction to Electrical Engineering and computer programming. Led the team involved in transitioning the team from physical and online school during the pandemic in 2019. Involved in a couple of administrative and accreditation exercises in the Faculty.Spearheaded the initiation and assessment of data-driven projects whichwere designed in helping students maximize their skills",
+      "duration": "2019-2020",
+      "title": "Program Instructor"
+    },
+    {
+      "company": "KETT Automobile",
+      "description": "Provided strategic insight to the business based on past data on best practices in reducing utility bills and investment diversification of the company.",
+      "duration": "2016-2017",
+      "title": "Data Scientist"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Pandas",
+      "Scikit-learn",
+      "Machine Learning",
+      "Deep Learning",
+      "Data Analysis"
+    ],
+    "familiar": [
+      "Google Cloud Platform",
+      "MATLAB",
+      "Computer Networking",
+      "Technical Writing",
+      "JAVA"
+    ],
+    "proficient": [
+      "Java",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "I currently work as a software developer with Jarvis consulting, where I work on different projects on Linux cluster management, Java applications, spring boot REST API, and others. I am also completing a Ph.D. in Electrical Engineering. My research is focused on using computer vision techniques to diagnose cervical cancer lesions found in females. I am proficient in data analysis and providing insights to businesses using data. I have experience teaching undergraduate and postgraduate student."
+}
