@@ -41,8 +41,8 @@ jarvis_projects:
     description: Implemented a Minimum Viable Product (MVP) that stores each server/node's hardware specifications and monitors resource usage (e.g. CPU usage) in real-time. The data is stored in an RDBMS database (PostgreSQL) which can be used for reporting and, in the future, resource planning. 
   - name: "Core Java Apps"
     git_url: "/core_java"
-    description: Developed a Java-based App that has the functionality of the grep linux comaand. 
-#  - name: "Springboot App"
+    description: Developed a java-based app that has the functionalities of a grep linux command. It recursively searches files in a directory andd outputslines that matches the specifies output file. It was built and managed using Maven. 
+#  - name: "Springboot App" 
 #    git_url: "/springboot"
  #   description: ""
  # - name: "Python Data Analytics"
