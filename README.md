@@ -15,7 +15,9 @@ I currently work as a software developer with Jarvis consulting, where I work on
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_TomiAina](https://github.com/jarviscanada/jarvis_data_eng_TomiAina)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_TomiAina/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_TomiAina/tree/develop/linux_sql)]: Implemented a Minimum Viable Product (MVP) that stores each server/node's hardware specifications and monitors resource usage (e.g. CPU usage) in real-time. The data is stored in an RDBMS database (PostgreSQL) which can be used for reporting and, in the future, resource planning.
+**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_TomiAina/tree/master/linux_sql)]: Implemented a Minimum Viable Product (MVP) that stores each server/node's hardware specifications and monitors resource usage (e.g. CPU usage) in real-time. The data is stored in an RDBMS database (PostgreSQL) which can be used for reporting and, in the future, resource planning.
+
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_TomiAina/tree/master/core_java)]: Developed a java-based app that has the functionalities of a grep linux command. It recursively searches files in a directory andd outputslines that matches the specifies output file. It was built and managed using Maven.
 
 
 ## Highlighted Projects
@@ -26,23 +28,24 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_TomiAina](
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Worked on various projects such as Linux cluster monitoring, Twitter CRUD App, SpringBoot amongst others
+**Software Developer, Jarvis (2020-present)**: Developed various projects such as cluster monitoring, Grep app e.t.c  using tecchnologies such as Git, Linux,SQL,dockerr among others. Familiar with scrum/Agile methodologies. 
 
-**Program Instructor, Nile University of Nigeria (2019-2020)**: Developed curriculum and taught courses in machine learning, introduction to Electrical Engineering and computer programming. Led the team involved in transitioning the team from physical and online school during the pandemic in 2019. Involved in a couple of administrative and accreditation exercises in the Faculty.
+**Program Instructor, Nile University of Nigeria (2019-2020)**: Developed curriculum and taught courses in machine learning, introduction to Electrical Engineering and computer programming. Led the team involved in transitioning the team from physical and online school during the pandemic in 2019. Involved in a couple of administrative and accreditation exercises in the Faculty. Spearheaded the initiation and assessment of data-driven projects whichwere designed in helping students maximize their skills
 
-**Data Scienetist, KETT Automobile (2016-2017)**: Provided strategic insight to the business based on past data on best practices in reducing utility bills and investment diversification of the company.
+**Data Scientist, KETT Automobile (2016-2017)**: Provided strategic insight to the business based on past data on best practices in reducing utility bills and investment diversification of the company.
 
 
 ## Education
-**Nile University of Nigeria (2018-2021)**, Doctor of Philosphy, Electrical Engineering
+**Nile University of Nigeria (2018-2021)**, Doctor of Philosophy, Electrical Engineering
 - Obtained a 5.0/5.0 GPA in the first year of PhD
 
 **The University of Birmingham (2014-2018)**, Master of Science, Electrical and Computer Engineering
 
-**Covenant University (2009-2014)**, Bachelors of Engineering , Electrical and Electronincs Engineering
+**Covenant University (2009-2014)**, Bachelors of Engineering, Electrical and Electronics  Engineering
 
 
 ## Miscellaneous
-- CISCO Certified Network Associate
-- Home Reno and Interior
+- Simplilearn: Data Science with Python
+- CCNA
 - Teaching Kids
+- Home Renovations and Interior Decoration
