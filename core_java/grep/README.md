@@ -15,11 +15,13 @@ USAGE: regex rootPath outFile
 
 The app has the ability to search for text patterns (regex) in a given directory (rootPath),
 and outputs matched line to a file (outFile).
-#Implemenation
+
+#Implementation
 In implementing the app, a method is written to handle the CLI arguments (the arguments have been described above).
 These arguments are saved to private variables using ``Getters`` and ``Settters``. In addition, self4j is used to
 logging messages (exceptions) and debugging. The IntelliJ IDE is used to generate, implement all methods and run the app. 
-These methods perform the following functions:
+These methods perform the following functions as described in the 
+pseudocode. 
 
 ## Pseudocode
 ````
