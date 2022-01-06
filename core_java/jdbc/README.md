@@ -6,10 +6,8 @@ This access allows the client to manipulate PostgresSQL using the CRUD operation
 The Data Access Object (DAO) design pattern used in the app and a JDBC driver was used to create a connection that enables the execution of SQL queries.
 Other technologies such as PSQL, maven, docker were used in developing the app.
 # Implementation 
-
 ## ER Diagram
-![This is an image](/home/centos/dev/jarvis_data_eng_Tomi/core_java/jdbc/assets/ER Diagram.png)
-
+![This is an image](./assets/ER Diagram.png)
 
 ## Design Patterns
 The DAO provides abstraction between JDBC and the code (business logic). It can be a true abstraction or a true object. It uses a Data Transfer Object (DTO) with DAO in most cases.
