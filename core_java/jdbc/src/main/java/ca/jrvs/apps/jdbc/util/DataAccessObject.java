@@ -1,9 +1,7 @@
-package ca.jrvs.apps.jdbc;
+package ca.jrvs.apps.jdbc.util;
 
-import java.sql.ResultSet;
-import java.sql.Statement;
-
-public class DataAccessObject {
+import java.sql.*;
+import java.util.List;
 
     public abstract class DataAccessObject <T extends DataTransferObject> {
 
@@ -37,5 +35,3 @@ public class DataAccessObject {
             }
         }
     }
-
-}
