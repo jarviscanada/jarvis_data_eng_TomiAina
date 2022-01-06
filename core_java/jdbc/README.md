@@ -7,7 +7,7 @@ The Data Access Object (DAO) design pattern used in the app and a JDBC driver wa
 Other technologies such as PSQL, maven, docker were used in developing the app.
 # Implementation 
 ## ER Diagram
-![Image](core_java/jdbc/assets/ER Diagram.png)
+![Image](https://raw.githubusercontent.com/jarviscanada/jarvis_data_eng_TomiAina/feature/grep_jdbc/core_java/jdbc/assets/ER%20Diagram.png)
 
 ## Design Patterns
 The DAO provides abstraction between JDBC and the code (business logic). It can be a true abstraction or a true object. It uses a Data Transfer Object (DTO) with DAO in most cases.
