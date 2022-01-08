@@ -1,26 +1,29 @@
 package ca.jrvs.apps.grep;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.List;
 import java.io.IOException;
 import java.util.List;
 import com.sun.org.slf4j.internal.Logger;
-import com.sun.org.slf4j.internal.LoggerFactory;
-
+import com.sun.org.slf4j.internal.LoggerFacto
 public interface JavaGrep {
     /**
      * Top level search workflow
      *
      * @throws IOException
      */
+    void process() throws IOException, IllegalAccessException;
     void process() throws IOException;
 
     /**
      * Traverse a given directory and return all files
      *
      * @param rootDir input directory
+     * @return
      * @return files under the rootDir
      */
     List<File> listFiles(String rootDir);
-
     /**
      * Read a file and return all the lines
      *
@@ -30,6 +33,7 @@ public interface JavaGrep {
      * @return lines
      * @throws IllegalArgumentException if a given inputFile is not a file
      */
+    List<String> readLines(File inputFile) throws FileNotFoundException, IllegalAccessException, IOException;
     List<String> readLines(File inputFile);
 
     /**
