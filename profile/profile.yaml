@@ -5,43 +5,45 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_TomiAina
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I currently work as a software developer with Jarvis consulting, where I work on different projects on Linux cluster management, Java applications, spring boot REST API, and others. I am also completing a Ph.D. in Electrical Engineering. My research is focused on using computer vision techniques to diagnose cervical cancer lesions found in females. I am proficient in data analysis and providing insights to businesses using data. I have experience teaching undergraduate and postgraduate student.
+summary: I have an academic background in Electrical Engineering and Computer Science. I am skilled at eliciting and documenting functional and non-functional requirements and working as a liaison between business and technical teams. I am passionate about driving efficiency and streamlining processes through effective data gathering and system and workflow analysis. With over 4+  years of experience in Financial Services, Health-Tech, Artificial Intelligence, Education and automobile industries, I am seeking Business System Analysts role to help organizations increase productivity, reduce cost and make more informed decisions. 
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 #  DO NOT mention skills that you don't want to work on in the future (e.g. MS office)
 skills:
   # At least 5 skills
-  proficient:
-    - Java
-    - Linux/Bash
-    - RDBMS/SQL
+  soft skills:
+    - Elicitation
+    - Documentation/ Presentation 
+    - Interpersonal and collaboration 
     - Agile/Scrum
-    - Git
+    - Requirement Gathering 
+
   # At least 5 skills
-  competent:
-    - Pandas
-    - Scikit-learn
-    - Machine Learning 
-    - Deep Learning
-    - Data Analysis 
+  business tools:
+    - Microsoft Excel and PowerPoint 
+    - Jira
+    - Visio 
+    - Tableau / PowerBI
+    - Figma/Balsamiq
+    
   # At least 5 skills
-  familiar:
-    - Google Cloud Platform
-    - MATLAB
-    - Computer Networking
-    - Technical Writing
-    - JAVA
+  technical skills:
+    - RDBMS/SQL
+    - Data Modelling/Mapping
+    - Data Analysis
+    - AI and Machine Learning 
+    - Cloud Platform
 
  # List of Jarvis projects
 jarvis_projects:
   - name: "Linux Cluster Resource Monitoring App"
     git_url: "/linux_sql"
     # Do  NOT mention skills that you don't want to work on in the future (e.g. MS office)
-    description: Implemented a Minimum Viable Product (MVP) that stores each server/node's hardware specifications and monitors resource usage (e.g. CPU usage) in real-time. The data is stored in an RDBMS database (PostgreSQL) which can be used for reporting and, in the future, resource planning. 
+    description: I worked closely with stakeholders and technical teams to gather requirements and design a system that met the needs of the organization. This involved preparing Business Requirement Documents (BRD) that highlighted the need statements, project scope, key stakeholders, project schedules and deadlines, cost-benefit analysis among other important requirements. In addition, I prepared the Software Requirement Document that described use cases and features of the application It defined the scope of the work, functional and non-functional requirements, data models, assumptions and constraints and the acceptance criteria. 
   - name: "Core Java Apps"
     git_url: "/core_java"
-    description: Developed a java-based app that has the functionalities of a grep linux command. It recursively searches files in a directory andd outputslines that matches the specifies output file. It was built and managed using Maven. 
+    description: I was responsible for developing a Java-based application that emulated the functionalities of the Linux command, grep. The application was designed to recursively search files within a directory and output the lines that matched the specified output file. To achieve this, I worked closely with the technical team to design and develop the application using Maven, a popular project management tool. Through this process, I ensured that the app met all functional requirements and was user-friendly for easy adoption and use by stakeholders.
 #  - name: "Springboot App" 
 #    git_url: "/springboot"
  #   description: ""
@@ -62,46 +64,42 @@ jarvis_projects:
 # Feel free to add more projects
 highlighted_projects: 
     #name 
-  - name: "Development of a deep-learning based cervical screening system"
+  - name: "Development of a Machine learning Model to detect cervical cancer."
     #URL is optional
     git_url:
     # The  description must start with an action verb (https://bit.ly/3guO98u)
-    description: Developed a Computer Vision-based- system that can detect cervical cancer lesions using a mobile phone. A mobile application is developed that can automatically screen cervix images in real-time. It was designed to aid screening, particularly in low-resource regions and could potentially reduce the prevalence of cervical cancer in these regions.
-  - name: "Optimization of Household Energy Management System"
-    git_url:
-    description: Developed a Household Energy Management System that aims to minimize customers' electricity bills by predicting the operation time of appliances in the home with the real-time electricity price and renewable energy resources integrated with the home.
-
+    description: carried out data collection by gathering relevant datasets on cervical cancer, cleaned and pre-processed the data to make it suitable for analysis. Exploratory data analysis was done to identify patterns, correlations, and trends. Feature engineering was carried out by identifying the most important features for predicting cervical cancer and engineering new features. The analyst developed machine learning models using various techniques, evaluated the model performance using appropriate metrics, fine-tuned the models for improved performance and deployed the model in a production environment.
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
   # our Jarvis role as a professional experience rather than training.
-  - title: "Software Developer"
+  - title: "Business System Analyst"
     company: "Jarvis"
-    duration: "2020-present"
+    duration: "2021-present"
     # The  description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Developed various projects such as cluster monitoring, Grep app e.t.c  using tecchnologies such as Git, Linux,SQL,dockerr among others. Familiar with scrum/Agile methodologies. "
-  - title: "Program Instructor"
+    description: "Elicited requirements from clients and converted them into user stories in JIRA while prioritizing and maintaining the product backlog. Conducted market research and competitive analysis to support the development of a business case and prepare the BRD document. Assisted in UAT by mapping all test cases to acceptance criteria"
+  - title: "Business Analyst"
     company: "Nile University of Nigeria"
-    duration: "2019-2020"
-    description: "Developed curriculum and taught courses in machine learning, introduction to Electrical Engineering and computer programming. Led the team involved in transitioning the team from physical and online school during the pandemic in 2019. Involved in a couple of administrative and accreditation exercises in the Faculty. Spearheaded the initiation and assessment of data-driven projects whichwere designed in helping students maximize their skills"
-  - title: "Data Scientist"
+    duration: "2018-2020"
+    description: "collaborated within a Scrum team to design and implement an effective research plan for identifying and addressing potential challenges. I conducted interviews and design sessions with key stakeholders to document clear business requirements and created process documents and Business Requirement Documents (BRDs). Modelled various system processes using Microsoft Visio and conducted SWOT analysis to identify project strengths, weaknesses, opportunities, and threats, which enabled effective decision-making."
+  - title: "Business and Data Analyst"
     company: "KETT Automobile"
-    duration: "2016-2017"
-    description: "Provided strategic insight to the business based on past data on best practices in reducing utility bills and investment diversification of the company."
+    duration: "2014-2018"
+    description: "Provided strategic insight to the business based on past data on best practices in reducing utility bills and fostering investment diversification of the company."
 
   
 #List of edcuation
 education: 
   - school_name: "Nile University of Nigeria"
-    duration: "2018-2021"
+    duration: "2018-2022"
     degree: "Doctor of Philosophy"
     department: "Electrical Engineering"
     # optional
     awards_achievements: 
       - "Obtained a 5.0/5.0 GPA in the first year of PhD"
   - school_name: "The University of Birmingham"
-    duration: "2014-2018"
+    duration: "2014-2016"
     degree: "Master of Science"
     department: "Electrical and Computer Engineering"
     awards_achievements:
@@ -116,13 +114,14 @@ others:
   - title: "Certificates"
     #list of items
     bullets:
-      - "Simplilearn: Data Science with Python"
-      - "CCNA"
+      -  "ELVTR: Product Management with AI and MAchine Learning"
+      -  "Simplilearn: Data Science with Python"
+      
  # - title: "Awards"
   #  bullets:
   #
   - title: "Activities/Hobbies"
     bullets:
       - "Teaching Kids"
-      - "Home Renovations and Interior Decoration"
-            
+     
+
